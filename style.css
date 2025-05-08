@@ -578,7 +578,7 @@ span {
 
 
     .item-tres {
-        max-width: 100px;
+        max-width: 1000px;
         height: 100%;
         padding: 20px;
         max-width: 100%;
@@ -789,7 +789,7 @@ span {
     
     
         .item-tres {
-            max-width: 1023px;
+            width: 1023px;
             height: 100%;
             padding: 20px;
             max-width: 100%;
