@@ -543,7 +543,7 @@ span {
     }
 
     .item-um {
-        max-width: 350px;
+        max-width: 767px;
         min-height: 200px;
         margin-bottom: 10px;
     }
@@ -560,6 +560,7 @@ span {
 
     .item-dois {
         margin-bottom: 10px;
+        max-width: 767px;
     }
 
     .item-dois h2 {
@@ -570,7 +571,7 @@ span {
 
 
     .item-tres {
-        max-width: 350px;
+        max-width: 767px;
         height: 100%;
         padding: 20px;
         max-width: 100%;
