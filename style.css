@@ -143,6 +143,10 @@ section.pagina-inicial {
     margin-right: 250px;
 }
 
+.img-mobile {
+    display: none;
+}
+
 @keyframes pulse {
     0%, 100% {
         transform: scale(1);
@@ -443,11 +447,8 @@ span {
 
 @media screen and (max-width: 767px) {
 
-    button:active,
-    a:active
-    {
-        background-color: none;
-        text-decoration: none;
+    * {
+        -webkit-tap-highlight-color: transparent;
     }
 
     body {
@@ -459,6 +460,7 @@ span {
         display: block;
         margin-right: 10px;
         color: #000;
+        
     }
 
     .menu {
@@ -481,88 +483,40 @@ span {
         border-radius: 10px;
         margin-top: 10px;
         width: 70%;
+        padding-top: 20px;
     }
 
     section.pagina-inicial {
-        background-color: #fff;
-        border-radius: 20px;
         padding: 20px;
     }
 
     .logo img {
         padding-top: 5px;
-        width: 150px;
-    }
-
-    .menu-link-1:hover {
-        background-color: #007bff;
-        padding: 10px;
-        border-radius: 20px;
-        color: #fff;
-    }
-
-    .menu-link-2:hover {
-        background-color: #000000;
-        padding: 10px;
-        border-radius: 20px;
-        color: #fff;
-    }
-
-    .menu-link-3:hover {
-        background-color: #fc2727;
-        padding: 10px;
-        border-radius: 20px;
-        color: #fff;
+        width: 170px;
     }
 
 
     .button-topo a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #ffffff;
         font-size: 18px;
-        gap: 10px;
-    }
-
-    .button-topo {
-        border: none;
-        text-decoration: none;
-        background-color: #000000;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-    }
-
-    .button-topo:hover {
-        background-color: #007bff;
     }
 
     .apresentacao {
         background-color: #007bff;
-        margin-top: 30px;
-        padding: 70px 0 70px 100px;
+        margin-top: 15px;
+        padding: 30px 0 50px 10px;
         border-radius: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .texto h3 {
-        color: #d3d3d3;
-        font-size: 20px;
-        font-weight: 300;
-        margin-bottom: 20px;
-        letter-spacing: 7px;
+        text-align: center;
+        font-size: 18px;
     }
 
     .texto h1 {
-        max-width: 600px;
-        font-size: 48px;
-        color: #fff;
-        font-weight: 500;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-size: 32px;
         margin-bottom: 40px;
     }
 
@@ -584,9 +538,16 @@ span {
     }
 
     .imagem img {
-        width: 350px;
-        top: 23%;
-        margin-right: 250px;
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        align-items: center;
+        width: 150px;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin: auto;
     }
 
     @keyframes pulse {
