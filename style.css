@@ -469,7 +469,7 @@ span {
         flex-direction: column;
         position: absolute;
         top: 63px;
-        right: 50px;
+        right: 40px;
         width: 100%;
         background: #2e2e2e;
         text-align: center;
@@ -482,7 +482,7 @@ span {
         backdrop-filter: blur(10px);
         border: 1px solid #2e2e2e23;
         border-radius: 10px;
-        margin-top: 10px;
+        margin-top: 0;
         width: 70%;
         padding-top: 20px;
     }
