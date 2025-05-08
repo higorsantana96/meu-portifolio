@@ -436,9 +436,17 @@ span {
 
 
 
+@media screen and (max-width: 347px) {
+    .projeto-1 a {
+        max-width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+}
 
-
-@media screen and (min-width:200px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     * {
         -webkit-tap-highlight-color: transparent;
@@ -496,12 +504,12 @@ span {
     .apresentacao {
         background-color: #007bff;
         margin-top: 15px;
-        padding: 30px 0 50px 0;
+        padding: 30px 0 30px 0px;
     }
 
     .texto h3 {
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .texto h1 {
@@ -528,13 +536,11 @@ span {
 
     .img-mobile {
         display: block;
-        align-items: center;
         width: 150px;
         padding-top: 10px;
         padding-bottom: 20px;
         margin-right: 0px;
         margin: auto;
-        
     }
 
     .itens {
@@ -543,7 +549,7 @@ span {
     }
 
     .item-um {
-        max-width: 767px;
+        max-width: 1000px;
         min-height: 200px;
         margin-bottom: 10px;
     }
@@ -560,7 +566,7 @@ span {
 
     .item-dois {
         margin-bottom: 10px;
-        max-width: 767px;
+        max-width: 1000px;
     }
 
     .item-dois h2 {
@@ -571,7 +577,7 @@ span {
 
 
     .item-tres {
-        max-width: 767px;
+        max-width: 100px;
         height: 100%;
         padding: 20px;
         max-width: 100%;
@@ -619,29 +625,25 @@ span {
         font-size: 40px;
     }
 
+    
     .projeto-1 a {
+        max-width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 10px 20px;
+    } 
     }
-
-   
-    }
-
-
     .projeto-1 img {
         height: 180px;
     }
-
-
     .container-sobre-mim {
         width: 100%;
         margin: auto;
     }
-
-
     .sobre-mim h2 {
         font-size: 40px;
     }
-
     .sobre-mim p {
         font-size: 16px;
         font-weight: 300;
