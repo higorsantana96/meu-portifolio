@@ -530,9 +530,11 @@ span {
         display: block;
         align-items: center;
         width: 150px;
-        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
         margin-right: 0px;
         margin: auto;
+        
     }
 
     .itens {
