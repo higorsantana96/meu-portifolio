@@ -322,7 +322,7 @@ span {
     color: #007bff;
 }
 
-.container-projeto-1 {
+.container-projeto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -331,42 +331,42 @@ span {
     gap: 40px;
 }
 
-.projeto-1 {
+.projeto {
     padding: 20px;
     border-radius: 5px;
     max-width: 350px;
-    min-height: 250px;
+    min-height: 550px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     color: #fff;
     background: rgba(255, 255, 255, 0.05);
 }
 
-.projeto-1:hover {
+.projeto:hover {
     box-shadow: 0 0 20px #9d34ff4d;
     transition: all 0.3s ease;
 }
 
-.projeto-1 h3 {
+.projeto h3 {
     font-size: 22px;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.projeto-1 h4 {
+.projeto h4 {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-.projeto-1 p {
+.projeto p {
     font-size: 20px;
     font-weight: 400;
     margin: 20px 0;
 }
 
-.projeto-1 a {
+.projeto a {
     text-decoration: none;
     background-color: #000;
     color: #fff;
@@ -378,21 +378,28 @@ span {
     margin-bottom: 10px;
 }
 
-.projeto-1 a:hover {
+.projeto a:hover {
     background-color: #9d34ff4d;
 }
 
-.projeto-1 li {
+.projeto li {
     display: inline;
     list-style: none;
 }
 
-.projeto-1 li img {
+.projeto li img {
     width: 30px;
-    height: 30px;
+    height: 25px;
 }
 
-.projeto-1 img {
+.projeto ul li img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+
+
+.projeto img {
     height: 200px;
     max-width: 100%;
     border-radius: 5px;
@@ -627,7 +634,7 @@ span {
     }
 
     
-    .projeto-1 a {
+    .projeto a {
         max-width: 150px;
         display: flex;
         justify-content: center;
@@ -635,7 +642,7 @@ span {
         padding: 10px 20px;
     } 
     }
-    .projeto-1 img {
+    .projeto img {
         height: 180px;
     }
     .container-sobre-mim {
@@ -836,7 +843,7 @@ span {
         }
     
         
-        .projeto-1 a {
+        .projeto a {
             max-width: 150px;
             display: flex;
             justify-content: center;
@@ -844,7 +851,7 @@ span {
             padding: 10px 20px;
         } 
         }
-        .projeto-1 img {
+        .projeto img {
             height: 180px;
         }
         .container-sobre-mim {
