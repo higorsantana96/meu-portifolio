@@ -12,6 +12,8 @@ html {
 body {
     background-color: #007bff;
     padding: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 section.pagina-inicial {
